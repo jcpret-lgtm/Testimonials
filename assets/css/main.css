@@ -2010,7 +2010,7 @@ input, select, textarea {
 				-webkit-transition-delay: 1.175s;
 				-ms-transition-delay: 1.175s;
 				transition-delay: 1.175s;
-				height: calc(40vh - 2em);
+				height: auto;
 				min-height: 18em;
 				width: 100%;
 			}
