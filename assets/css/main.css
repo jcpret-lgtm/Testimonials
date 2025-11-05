@@ -1359,12 +1359,14 @@ input, select, textarea {
 
 		}
 /*added*/
-@media screen and (max-width: 480px) {
+@media screen and (orientation: landscape) {
 
 			.poptrox-popup:before {
 				display: none;
+				height:auto;
+				width: 100%;
 			}
-
+			
 			.poptrox-popup .caption {
 				display: none !important;
 			}
