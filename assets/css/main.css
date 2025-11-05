@@ -1358,6 +1358,24 @@ input, select, textarea {
 			}
 
 		}
+/*added*/
+@media screen and (max-width: 480px) {
+
+			.poptrox-popup:before {
+				display: none;
+			}
+
+			.poptrox-popup .caption {
+				display: none !important;
+			}
+
+			.poptrox-popup .closer,
+			.poptrox-popup .nav-previous,
+			.poptrox-popup .nav-next {
+				display: none !important;
+			}
+
+		}
 
 /* Wrapper */
 
