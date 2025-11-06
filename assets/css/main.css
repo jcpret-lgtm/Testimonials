@@ -1360,18 +1360,10 @@ input, select, textarea {
 		}
 /*added*/
 @media screen and (max-width: 600px) and (orientation: landscape) {
-.poptrox-overlay {
-		-webkit-tap-highlight-color: rgba(197, 214, 214, 0);
-	}
-
-	.poptrox-popup {
-		background: rgba(31, 34, 36, 0.925);
-		box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
-		cursor: default;
-		height: auto;
-		width: 100%;
-		}
- 
+	.column {
+    flex: 100%;
+    max-width: 100%;
+  }
 		}
 
 /* Wrapper */
