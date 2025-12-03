@@ -255,10 +255,10 @@
 				onPopupOpen: function() { $body.addClass('modal-active'); },
 				overlayOpacity: 0,
 				popupCloserText: '',
-				popupHeight: 150,
+				popupHeight: 200,
 				popupLoaderText: '',
 				popupSpeed: 300,
-				popupWidth: 150,
+				popupWidth: 200,
 				selector: '.thumb > a.image',
 				usePopupCaption: true,
 				usePopupCloser: true,
@@ -266,7 +266,7 @@
 				usePopupForceClose: true,
 				usePopupLoader: true,
 				usePopupNav: true,
-				windowMargin: 50
+				windowMargin: 30
 			});
 
 			// Hack: Set margins to 0 when 'xsmall' activates.
@@ -275,7 +275,8 @@
 				});
 
 				breakpoints.on('>xsmall', function() {
-					$main[0]._poptrox.windowMargin = 50;
+					$main[0]._poptrox.windowMargin = 20;
 				});
+
 
 })(jQuery);
