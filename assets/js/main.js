@@ -253,7 +253,7 @@
 				fadeSpeed: 300,
 				onPopupClose: function() { $body.removeClass('modal-active'); },
 				onPopupOpen: function() { $body.addClass('modal-active'); },
-				overlayOpacity: 0,
+				overlayOpacity: 0.8,
 				popupCloserText: '',
 				popupHeight: 200,
 				popupLoaderText: '',
@@ -275,8 +275,9 @@
 				});
 
 				breakpoints.on('>xsmall', function() {
-					$main[0]._poptrox.windowMargin = 20;
+					$main[0]._poptrox.windowMargin = 10;
 				});
 
 
 })(jQuery);
+
