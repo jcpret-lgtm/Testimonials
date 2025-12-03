@@ -258,7 +258,7 @@
 				popupHeight: 200,
 				popupLoaderText: '',
 				popupSpeed: 300,
-				popupWidth: 200,
+				popupWidth: 300,
 				selector: '.thumb > a.image',
 				usePopupCaption: true,
 				usePopupCloser: true,
@@ -280,4 +280,5 @@
 
 
 })(jQuery);
+
 
